@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahibalan S | Python Developer</title>
+  <meta name="description" content="Portfolio of Mahibalan S — Python Developer skilled in AI/ML, Cybersecurity, and UI/UX. Based in Chennai."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">M<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Mahibalan</span><br/>
+          Python Developer
+        </h1>
+        <p class="hero-subtitle">
+          Building scalable applications & intelligent systems. Passionate about 
+          <span class="highlight">AI/ML</span>, <span class="highlight">Cybersecurity</span>, 
+          and <span class="highlight">UI/UX Design</span>.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">8.11</span>
+            <span class="stat-label">GPA</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Years Learning</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-ring ring-1"></div>
+        <div class="hero-image-ring ring-2"></div>
+        <div class="hero-image-container">
+          <img src="assets/profile.jpg" alt="Mahibalan S" class="hero-img"/>
+        </div>
+        <div class="floating-tag tag-1">
+          <span class="tag-icon">🐍</span> Python
+        </div>
+        <div class="floating-tag tag-2">
+          <span class="tag-icon">🤖</span> AI/ML
+        </div>
+        <div class="floating-tag tag-3">
+          <span class="tag-icon">🔒</span> Security
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Passionate about <span class="gradient-text">clean code</span> & innovation</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <p>BE in Computer Science & Engineering</p>
+          <p class="about-meta">Anand Institute Of Higher Technology</p>
+          <p class="about-meta">GPA: <strong>8.11 / 10</strong> &nbsp;|&nbsp; 2022 – 2026</p>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon">🌍</div>
+          <h3>Location</h3>
+          <p>Chennai, Tamil Nadu, India</p>
+          <p class="about-meta">Open to Remote & On-site roles</p>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon">💬</div>
+          <h3>Languages</h3>
+          <p>Tamil &amp; English</p>
+          <p class="about-meta">Fluent in both</p>
+        </div>
+        <div class="about-card glass-card about-card-wide">
+          <div class="about-icon">🧑‍💻</div>
+          <h3>Profile Summary</h3>
+          <p>Detail-oriented Python Developer skilled in data structures, algorithms, scalable applications, and SQL-driven systems. Hands-on with AI/ML concepts like RAG and LLMs, experienced in automation and workflow management. Passionate about Cybersecurity and UI/UX, focused on clean code, creativity, and effective collaboration in agile environments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Skills</span>
+        <h2 class="section-title">My <span class="gradient-text">Tech Stack</span></h2>
+      </div>
+      <div class="skills-categories">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Languages</h3>
+          <div class="skill-pills">
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+              Python
+            </div>
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
+              C
+            </div>
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"/>
+              SQL
+            </div>
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
+              MongoDB
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Tools & Platforms</h3>
+          <div class="skill-pills">
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="filter:invert(1)"/>
+              GitHub
+            </div>
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop"/>
+              Photoshop
+            </div>
+            <div class="skill-pill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" alt="Illustrator"/>
+              Illustrator
+            </div>
+            <div class="skill-pill">
+              <span style="font-size:1.2rem">🎨</span>
+              Canva
+            </div>
+            <div class="skill-pill">
+              <span style="font-size:1.2rem">📊</span>
+              MS Office
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Areas of Interest</h3>
+          <div class="skill-pills">
+            <div class="skill-pill interest">🤖 AI / ML</div>
+            <div class="skill-pill interest">🔒 Cybersecurity</div>
+            <div class="skill-pill interest">🎨 UI/UX Design</div>
+            <div class="skill-pill interest">🧵 RAG & LLMs</div>
+            <div class="skill-pill interest">⚙️ Automation</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">🕷️</div>
+            <div class="project-links">
+              <a href="https://github.com/MahiBalan2215" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Advanced Web Crawler</h3>
+          <p class="project-desc">A powerful Python web crawler with multi-threading, async crawling, and proxy rotation for efficient URL discovery and cybersecurity analysis.</p>
+          <ul class="project-features">
+            <li>JS rendering via Selenium & HTML parsing with BeautifulSoup</li>
+            <li>Modern Tkinter GUI with real-time progress & live statistics</li>
+            <li>Export options: JSON / CSV — modular & scalable architecture</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Selenium</span>
+            <span class="tag">BeautifulSoup</span>
+            <span class="tag">Tkinter</span>
+            <span class="tag">Multi-threading</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">💰</div>
+            <div class="project-links">
+              <a href="https://github.com/MahiBalan2215" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Daily Expense Logger</h3>
+          <p class="project-desc">A robust command-line expense tracker with full CRUD operations using Python and CSV for reliable data storage and terminal-based interaction.</p>
+          <ul class="project-features">
+            <li>Full CRUD operations with data validation</li>
+            <li>Clean, modular code for reusability & readability</li>
+            <li>GUI expansion planned with Tkinter + SQL integration</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">CSV</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Tkinter</span>
+            <span class="tag">CLI</span>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon">🎨</div>
+            <div class="project-links">
+              <a href="https://github.com/MahiBalan2215" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Graphic Design Work</h3>
+          <p class="project-desc">Professional design assets for a local catering brand — business cards, posters, and digital/print materials maintaining brand identity.</p>
+          <ul class="project-features">
+            <li>Business cards & promotional posters for a catering brand</li>
+            <li>Print-ready & digital assets for impactful client communication</li>
+            <li>Brand identity & visual consistency maintained across assets</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Photoshop</span>
+            <span class="tag">Illustrator</span>
+            <span class="tag">Canva</span>
+            <span class="tag">Branding</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Work Experience</span>
+        <h2 class="section-title">My <span class="gradient-text">Journey</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Technical Support & Firmware Intern</h3>
+                <p class="timeline-company">Smartmake Technologies</p>
+              </div>
+              <span class="timeline-date">Jul 2025 – Aug 2025</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Hands-on experience in hardware troubleshooting and firmware configuration for Industrial PC Systems.</li>
+              <li>Worked on project training tasks and demonstrated strong professional conduct throughout the internship.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag">Hardware</span>
+              <span class="tag">Firmware</span>
+              <span class="tag">Technical Support</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot timeline-dot-edu"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3>BE in Computer Science & Engineering</h3>
+                <p class="timeline-company">Anand Institute Of Higher Technology</p>
+              </div>
+              <span class="timeline-date">2022 – 2026</span>
+            </div>
+            <ul class="timeline-points">
+              <li>GPA: 8.11 / 10 — consistent academic performance.</li>
+              <li>Coursework: Computer Architecture, Comparison of Learning Algorithms, Design & Creativity.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag">CSE</span>
+              <span class="tag">AI/ML</span>
+              <span class="tag">Algorithms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-subtitle">I'm currently open to new opportunities. Whether you have a question or just want to say hi — my inbox is always open!</p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:mahibalansenthil@gmail.com" class="contact-card glass-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>mahibalansenthil@gmail.com</p>
+        </a>
+        <a href="tel:+919444393718" class="contact-card glass-card">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>+91 9444393718</p>
+        </a>
+        <a href="https://linkedin.com/in/s-mahibalan-892235359" target="_blank" class="contact-card glass-card">
+          <div class="contact-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>s-mahibalan-892235359</p>
+        </a>
+        <a href="https://github.com/MahiBalan2215" target="_blank" class="contact-card glass-card">
+          <div class="contact-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>MahiBalan2215</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Designed & Built by <span class="gradient-text">Mahibalan S</span></p>
+      <p class="footer-sub">Chennai · 2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
